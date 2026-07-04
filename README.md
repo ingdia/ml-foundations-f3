@@ -23,13 +23,13 @@
 
 ---
 
-# 🧬 PART 1: Expectation-Maximization (EM) Algorithm
+#  PART 1: Expectation-Maximization (EM) Algorithm
 ### Speaker: [Member Name] | Time: 0-5 minutes
 
-## 🎯 Objective
+##  Objective
 Cluster unlabeled height data from two populations (Parents vs. Children) using a mixture of Gaussian distributions.
 
-## ❓ Critical Question: Why NOT Split at the Global Mean?
+##  Critical Question: Why NOT Split at the Global Mean?
 
 **Answer:** Splitting at the global mean is fundamentally flawed because:
 
