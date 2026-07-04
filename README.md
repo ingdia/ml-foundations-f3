@@ -204,3 +204,17 @@ iterations = [NUMBER]
 ## Training Loop
 [INSERT YOUR GRADIENT DESCENT LOOP WITH VISIBLE STEPS]
 
+## Sample Output
+--- Iteration 1 ---
+Predictions (ŷ):     [values]
+Error (ŷ - y):       [values]
+MSE:                 [value]
+Gradient ∂J/∂m:      [values]
+Gradient ∂J/∂b:      [values]
+Updated m:           [values]
+Updated b:           [values]
+
+--- Iteration 2 ---
+[Continue...]
+
+## Trend Observations
