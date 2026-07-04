@@ -70,9 +70,137 @@ E-Step Function:
 <img width="620" height="86" alt="image" src="https://github.com/user-attachments/assets/493a994a-c87d-4b31-af93-963f48f9dab0" />
 
 M-Step Function:
-# [INSERT YOUR M-STEP CODE]
+#### [INSERT YOUR M-STEP CODE]
 Main EM Loop:
-# [INSERT YOUR MAIN LOOP CODE]
+#### [INSERT YOUR MAIN LOOP CODE]
+
+## Optimization Tracking Table
+<img width="637" height="143" alt="image" src="https://github.com/user-attachments/assets/151c801b-ed52-4b16-8dd2-de33ec151dd6" />
+
+# Visualizations
+## Distribution Plot
+
+<img width="218" height="126" alt="image" src="https://github.com/user-attachments/assets/7fb588b3-a0cc-41ae-9a09-3bf8267d8bd0" />
+
+## Convergence Plot
+<img width="218" height="126" alt="image" src="https://github.com/user-attachments/assets/e15e4228-58dc-44db-ab60-3d59b2c2dc4f" />
 
 
+# PART 2: Bayesian Probability
+- Apply Bayes' Theorem to calculate sentiment probabilities from IMDb movie reviews using basic Python only (no ML libraries).
+## Positive Sentiment Keywords:
+- [Keyword 1] - Justification: [Why this indicates positive sentiment]
+- [Keyword 2] - Justification: [Why this indicates positive sentiment]
+- [Keyword 3] - Justification: [Why this indicates positive sentiment]
+- [Keyword 4] - Justification: [Why this indicates positive sentiment]
+
+## Negative Sentiment Keywords:
+- [Keyword 1] - Justification: [Why this indicates positive sentiment]
+- [Keyword 2] - Justification: [Why this indicates positive sentiment]
+- [Keyword 3] - Justification: [Why this indicates positive sentiment]
+- [Keyword 4] - Justification: [Why this indicates positive sentiment]
+  
+#  Bayes' Theorem
+P(Positive|keyword) = P(keyword|Positive) × P(Positive) / P(keyword)
+
+## Components:
+- Prior: P(Positive) = Base probability of positive reviews
+- Likelihood: P(keyword|Positive) = Probability of keyword given positive review
+- Marginal: P(keyword) = Total probability of keyword across all reviews
+- Posterior: P(Positive|keyword) = Updated probability after seeing keyword
+
+# Implementation Code
+[MEMBER 2: INSERT YOUR PREPROCESSING CODE]
+#### [INSERT YOUR TEXT CLEANING AND TOKENIZATION CODE]
+
+## Counting Keywords
+[INSERT YOUR KEYWORD COUNTING LOGIC]
+
+## Bayes' Theorem Implementation
+[MEMBER 2: INSERT YOUR BAYES CALCULATION CODE]
+
+# Probability Results Tables
+### Positive Keywords Analysis
+<img width="617" height="184" alt="image" src="https://github.com/user-attachments/assets/05aa112e-fad4-43fe-98c5-6fa3f0bbeb54" />
+
+### Negative Keywords Analysis
+<img width="617" height="184" alt="image" src="https://github.com/user-attachments/assets/5bbf74a9-bad5-43dc-88d2-f9631d43a760" />
+
+ ### Interpretation
+[MEMBER 2: INSERT YOUR ANALYSIS]
+
+### Visualization
+# [INSERT YOUR PLOTTING CODE and visual if any]
+
+##  PART 3 & 4: Gradient Descent
+
+Implement gradient descent for linear regression using matrix operations, both manually (Part 3) and in Python with SciPy (Part 4).
+
+## Problem Setup
+
+## Linear Equation:
+y = m₁x₁ + m₂x₂ + b
+
+#### Given Parameters:
+- Initial m = [-1, 2]
+- Initial b = [1, 1] (Note: Treated as vector, NOT scalar)
+- Data X = [[1, 3], [4, 10]]
+- Data y = [5, 6]
+- Learning Rate (α) = 0.001
+- Iterations = 4
+### Part 3: Manual Calculation
+## Cost Function: Mean Squared Error (MSE)
+J(m,b) = (1/n) × Σ(ŷ - y)²
+where ŷ = X·m + b
+
+## Chain Rule Derivatives
+[MEMBER 3: INSERT MY DERIVATION STEPS]
+
+## Derivative with respect to m:
+∂J/∂m = (2/n) × Xᵀ × (ŷ - y)
+
+## Derivative with respect to b:
+∂J/∂b = (2/n) × (ŷ - y)
+Manual Iteration Results:
+[MEMBER 3: INSERT YOUR STEP-BY-STEP CALCULATIONS]
+
+ŷ = [values]
+Error = [values]
+∂J/∂m = [values]
+∂J/∂b = [values]
+m_new = [values]
+b_new = [values]
+
+
+##  Part 4: Python Implementation
+
+## Setup
+
+import numpy as np
+from scipy.optimize import approx_fprime
+import matplotlib.pyplot as plt
+
+### Initial parameters
+m = np.array([-1.0, 2.0])
+b = np.array([1.0, 1.0])  # Vector, not scalar!
+
+### Data
+X = np.array([[1, 3], 
+              [4, 10]])
+y = np.array([5, 6])
+
+### Hyperparameters
+learning_rate = 0.001
+iterations = [NUMBER]
+
+# MSE Equation Function
+[MEMBER 4: INSERT YOUR MSE FUNCTION]
+
+[INSERT YOUR MSE EQUATION CODE]
+
+# Gradient Computation with SciPy
+[INSERT YOUR SCIPY DERIVATIVE CODE]
+
+## Training Loop
+[INSERT YOUR GRADIENT DESCENT LOOP WITH VISIBLE STEPS]
 
