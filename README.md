@@ -217,4 +217,60 @@ Updated b:           [values]
 --- Iteration 2 ---
 [Continue...]
 
+## Results & Analysis
+## Final Parameters
+Final m = [values]
+Final b = [values]
+Final MSE = [value]
+Final Predictions = [values]
+Actual Values = [5, 6]
+
+Key Observations:
+- MSE consistently decreases with each iteration
+- Parameters update in the opposite direction of gradients
+- Algorithm successfully minimizes error
+- Matrix operations maintained throughout (no scalar shortcuts)
+
 ## Trend Observations
+[MEMBER 4: INSERT YOUR TREND ANALYSIS]
+
+## Visualizations
+### Parameter Trajectory
+[INSERT YOUR PARAMETER PLOTTING CODE]
+<img width="214" height="116" alt="image" src="https://github.com/user-attachments/assets/5c175864-5eaa-4e7d-876e-1fed135910fa" />
+
+## Error Convergence
+[MEMBER 3: INSERT YOUR MSE PLOTTING CODE]
+<img width="214" height="116" alt="image" src="https://github.com/user-attachments/assets/5c175864-5eaa-4e7d-876e-1fed135910fa" />
+
+## Repository Structure
+
+formative-3/
+├── README.md                          # This file
+├── notebook.ipynb                     # Complete Jupyter Notebook
+├── Part3_Manual_Calculations.pdf      # Handwritten calculations
+├── Contribution_Proof.pdf             # Team contributions
+├── images/
+│   ├── em_distributions.png
+│   ├── em_convergence.png
+│   ├── bayesian_probs.png
+│   ├── gd_parameters.png
+│   └── gd_mse.png
+└── data/
+    ├── heights.csv
+    └── imdb_reviews.txt
+
+## Technical Setup
+
+### Clone repository
+git clone [repo-url]
+cd formative-3
+
+### Install dependencies
+pip install numpy scipy matplotlib
+
+### Run notebook
+jupyter notebook notebook.ipynb
+
+
+
