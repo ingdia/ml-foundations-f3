@@ -1,4 +1,4 @@
-# 📊 Formative 3: Probability Distributions, Bayesian Statistics & Gradient Descent
+#  Formative 3: Probability Distributions, Bayesian Statistics & Gradient Descent
 ## Team Presentation Guide
 
 **Team Members:**
@@ -13,7 +13,7 @@
 
 ---
 
-## 📋 Presentation Overview
+##  Presentation Overview
 
 | Part | Topic | Speaker | Duration |
 |------|-------|---------|----------|
@@ -59,7 +59,7 @@ P(x|μ,σ²) = (1/√(2πσ²)) * exp(-(x-μ)²/(2σ²))
 π_k = Σ_i γ(i,k) / N
 
 
-## 💻 Implementation Code
+##  Implementation Code
 
 ### [MEMBER 1: INSERT YOUR CODE SNIPPETS HERE]
 
