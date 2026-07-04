@@ -64,14 +64,15 @@ P(x|μ,σ²) = (1/√(2πσ²)) * exp(-(x-μ)²/(2σ²))
 ### [MEMBER 1: INSERT YOUR CODE SNIPPETS HERE]
 
 **Initialization:**
-```python
 # [INSERT YOUR INITIALIZATION CODE]
 
 E-Step Function:
 <img width="620" height="86" alt="image" src="https://github.com/user-attachments/assets/493a994a-c87d-4b31-af93-963f48f9dab0" />
 
 M-Step Function:
-
+# [INSERT YOUR M-STEP CODE]
 Main EM Loop:
+# [INSERT YOUR MAIN LOOP CODE]
+
 
 
